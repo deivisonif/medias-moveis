@@ -1,4 +1,4 @@
-#Médias Móveis
+# Médias Móveis
 
 ## Grupo
 - Nichael Filho
