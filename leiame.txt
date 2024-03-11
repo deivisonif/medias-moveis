@@ -1,0 +1,41 @@
+LEIA-ME: Médias móveis 
+Grupo: Nichael Filho, Rosilene da Silva Santos e Deivison Delmiro
+
+Descrição:
+Este programa em Python foi desenvolvido para calcular médias móveis de um conjunto de dados de tráfego. Ele permite ao usuário inserir os dados manualmente pelo teclado ou carregar os dados de um arquivo. As médias móveis são calculadas com base em um valor de "k" especificado pelo usuário.
+
+Funcionalidades:
+•	Entrada de dados de tráfego pelo teclado.
+•	Carregamento de dados de tráfego a partir de um arquivo.
+•	Cálculo de médias móveis com base em um valor de "k" especificado.
+•	Exibição das médias móveis calculadas.
+•	Opção de salvar as médias móveis em um arquivo de saída.
+
+Utilização:
+1.	Execute o programa.
+2.	Escolha a origem dos dados (teclado ou arquivo).
+3.	Insira os dados de tráfego.
+4.	Especifique um valor para "k".
+5.	O programa calculará as médias móveis e as exibirá.
+6.	Se desejar, poderá salvar as médias móveis em um arquivo.
+
+Observações:
+•	Certifique-se de que os dados de tráfego estejam formatados corretamente para evitar erros durante a leitura.
+•	Caso opte por carregar os dados de um arquivo, certifique-se de que o arquivo esteja no mesmo diretório do programa ou forneça o caminho completo até o arquivo.
+
+
+
+Comentário da equipe sobre o desempenho do cálculo da média móvel
+considerando a notação Big O:
+O código lê os números que mostram quanto tráfego passa em cada interseção e, em seguida, calcula a média móvel para cada ponto de dados. A parte principal do código, onde ele faz os cálculos, é rápida. Para este código, o Big O é O(n), o que significa que, à medida que adicionamos mais dados, o tempo de execução do código aumenta depedendo de n.
+Referências:
+•	https://panda.ime.usp.br/pythonds/static/pythonds_pt/03-EDBasicos/15-Deques.html
+•	https://panda.ime.usp.br/pythonds/static/pythonds_pt/03-EDBasicos/17-DequeImplementacao.html
+•	https://replit.com/@RicardoRubens/filas-21
+•	https://www.geeksforgeeks.org/deque-in-python/
+•	https://www.youtube.com/watch?v=zY2VZoFGxJk
+•	https://www.youtube.com/watch?v=Wr4wcfYSSoI
+•	https://www.otaviomiranda.com.br/2020/filas-em-python-com-deque-queue/
+
+Comentários:
+Diante do trabalho realizado, tentamos otimizar ao máximo o código e implementar algumas funções que na nossa perspectiva melhoraria o mesmo, como a possibilidade de escolha de um valor para “K”, mesmo tendo a preferência do 7. Assim como o fato de se adaptar a mais de uma forma de interpretação do arquivo com as médias móveis, para alavancar a funcionalidade geral do código!
